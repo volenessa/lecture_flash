@@ -68,7 +68,7 @@ if len(st.session_state["shuffled_list"]) > 1:
             st.session_state.current_index = 0
             st.session_state.nombre_de_reussites = 0
             st.session_state["shuffled_list"] = []
-            st.session_state.shuffled_list = current_word_list
+            st.session_state.shuffled_list = st.session_state["current_word_list"]
             st.session_state.mode = "showing_word"
             st.session_state["session_started"] = False
             st.session_state["current_word_list"] = []
