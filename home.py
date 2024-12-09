@@ -44,7 +44,8 @@ if selected_list_keys != st.session_state["slk"]:
     st.session_state["shuffling_done"] = False
 
 for wlk in st.session_state["slk"]:
-    st.session_state["current_word_list"].append(name)
+    if name != "":
+        st.session_state["current_word_list"].append(name)
     st.session_state["current_word_list"] += word_lists[wlk]
     st.session_state["current_word_list"] = list(set(st.session_state["current_word_list"]))
 if len(st.session_state["current_word_list"]) > 0 and not st.session_state["shuffling_done"]:
@@ -52,12 +53,9 @@ if len(st.session_state["current_word_list"]) > 0 and not st.session_state["shuf
     st.session_state["shuffled_list"] = list(set(st.session_state["current_word_list"]))
     st.session_state["shuffling_done"] = True
 
-
-
-
-
 if len(st.session_state["shuffled_list"]) > 1:
     current_index = st.session_state.current_index
+    st.sidebar.progress(current_index/len(st.session_state["shuffled_list"]))
 
     if not st.session_state["session_started"]:
         if st.button("Commencer"):
