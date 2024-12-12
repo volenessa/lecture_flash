@@ -1,4 +1,13 @@
 {
   "mots invariables 01": ["et", "bien", "chez", "dans", "alors", "moins", "assez"],
-  "mots invariables 02": ["très", "avec", "beaucoup", "comme", "aussi", "autour"]
+  "mots invariables 02": ["très", "avec", "beaucoup", "comme", "aussi", "autour"],
+  "mots invariables 03": ["quand", "jamais", "mais", "tout", "qui", "trop", "encore"],
+  "mots invariables 04": ["après", "toujours", "partout", "plus", "déjà", "combien"],
+  "mots invariables 05": ["maintenant", "parce que", "demain", "plusieurs", "longtemps", "pourquoi"],
+  "mots invariables 06": ["pendant", "voilà", "mieux", "souvent", "surtout", "ailleurs"],
+  "mots invariables 07": ["donc", "bientôt", "quelquefois", "parfois", "presque", "depuis"],
+  "mots invariables 08": ["ainsi", "sans", "ensuite", "seulement", "derrière", "là-bas"],
+  "mots invariables 09": ["loin", "comment", "plutôt", "aujourd'hui", "soudain", "dehors"],
+  "mots invariables 10": ["autrefois", "avant", "pourtant", "hier", "ici", "d'abord"],
+  "mots invariables 11": ["autant", "voici", "demain"]
 }
